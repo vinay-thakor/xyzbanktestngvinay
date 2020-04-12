@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="039fb3c5-474e-43c0-827d-6239e2b937ba" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aJIOuvckrHYymXxjpWjfhKRECj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hemal Sheth\IdeaProjects\xyz-bank" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.BankTestJay">
+    <configuration name="BankTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="xyz-bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.testsuite.BankTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTestJay" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="xyz-bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.testsuite.BankTestJay" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest.bankManagerShouldAddCustomerSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="xyz-bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.testsuite.BankTest" />
+      <option name="METHOD_NAME" value="bankManagerShouldAddCustomerSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest.bankManagerShouldDeleteCustomerSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="xyz-bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.testsuite.BankTest" />
+      <option name="METHOD_NAME" value="bankManagerShouldDeleteCustomerSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankTest.bankManagerShouldOpenAccountSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="xyz-bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bank.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bank.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="com.bank.testsuite.BankTest" />
+      <option name="METHOD_NAME" value="bankManagerShouldOpenAccountSuccessfully" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BankTestJay" />
+        <item itemvalue="TestNG.BankTest.bankManagerShouldOpenAccountSuccessfully" />
+        <item itemvalue="TestNG.BankTest.bankManagerShouldAddCustomerSuccessfully" />
+        <item itemvalue="TestNG.BankTest.bankManagerShouldDeleteCustomerSuccessfully" />
+        <item itemvalue="TestNG.BankTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="039fb3c5-474e-43c0-827d-6239e2b937ba" name="Default Changelist" comment="" />
+      <created>1586447242160</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586447242160</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586540319367">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1586540319367" />
+    <state x="413" y="120" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586447908668" />
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom" timestamp="1586540884212">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1586540884212" />
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586521327535" />
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586527384170" />
+    <state width="1323" height="201" key="GridCell.Tab.0.center" timestamp="1586540884211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1586540884211" />
+    <state width="1323" height="201" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586521327534" />
+    <state width="1323" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586527384170" />
+    <state width="1323" height="201" key="GridCell.Tab.0.left" timestamp="1586540884211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1586540884211" />
+    <state width="1323" height="201" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586521327534" />
+    <state width="1323" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586527384155" />
+    <state width="1323" height="201" key="GridCell.Tab.0.right" timestamp="1586540884211">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1586540884211" />
+    <state width="1323" height="201" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586521327534" />
+    <state width="1323" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586527384170" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1586541052152">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1586541052152" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1586489346953" />
+    <state x="65" y="67" key="new project wizard" timestamp="1586536318122">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="67" key="new project wizard/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1586536318122" />
+  </component>
+</project>
