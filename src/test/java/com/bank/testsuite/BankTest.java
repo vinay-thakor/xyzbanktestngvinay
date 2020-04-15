@@ -1,5 +1,6 @@
 package com.bank.testsuite;
 
+import com.bank.loadproperty.LoadProperty;
 import com.bank.pages.*;
 import com.bank.testbase.TestBase;
 import org.testng.annotations.BeforeTest;
@@ -18,9 +19,9 @@ Inside his create testmethods
 public class BankTest extends TestBase {
 
     //static variable
-    static String firstName = null;
-    String lastName = "Snape";
-    String postCode = "HG3 14WB";
+//    static String firstName = null;
+  //  String lastName = "Snape";
+    //String postCode = "HG3 14WB";
 
     //object creation
     HomePage homePage = new HomePage();
@@ -30,16 +31,24 @@ public class BankTest extends TestBase {
     CustomerLoginPage customerLoginPage = new CustomerLoginPage();
     AccountPage accountPage = new AccountPage();
     CustomersPage customersPage = new CustomersPage();
+    LoadProperty loadProperty = new LoadProperty();
+    //object Creation
+    String firstName = loadProperty.getProperty("firstName");
+    String lastName = loadProperty.getProperty("lastName");
+    String postCode = loadProperty.getProperty("postCode");
+
+
+
 
     @BeforeTest
     public static void setUp() {
-        firstName = "Severus" + getRandomNumber(2);
+      //  firstName = "Severus" + getRandomNumber(2);
     }
 
     /*
         1.bankManagerShouldAddCustomerSuccessfully.
     */
-    @Test
+    @Test(priority = 0,groups = {"Sanity","Regression","Smoke"})
     public void bankManagerShouldAddCustomerSuccessfully() {
         //    click On "Bank Manager Login" Tab
         homePage.clickOnBankManagerLoginTab();
@@ -63,7 +72,7 @@ public class BankTest extends TestBase {
     /*
     2. bankManagerShouldOpenAccountSuccessfully.
     */
-    @Test
+    @Test(priority = 1,groups = {"Sanity","Regression"})
     public void bankManagerShouldOpenAccountSuccessfully() {
         homePage.clickOnHomeButton();
         //	click On "Bank Manager Login" Tab
@@ -86,7 +95,7 @@ public class BankTest extends TestBase {
     /*
     3. customerShouldLoginAndLogoutSuceessfully.
     */
-    @Test
+    @Test(priority = 2,groups = {"Sanity","Smoke"})
     public void customerShouldLoginAndLogoutSuccessfully() {
         homePage.clickOnHomeButton();
         //	click on "Customer Login" Tab
@@ -106,7 +115,7 @@ public class BankTest extends TestBase {
     /*
     4. customerShouldDepositMoneySuccessfully.
     */
-    @Test
+    @Test(priority = 3,groups = {"Sanity","Regression"})
     public void customerShouldDepositMoneySuccessfully() {
         homePage.clickOnHomeButton();
         //	click on "Customer Login" Tab
@@ -128,7 +137,7 @@ public class BankTest extends TestBase {
     /*
     5. customerShouldWithdrawMoneySuccessfully
     */
-    @Test
+    @Test(priority=4,groups = {"Sanity","Regression"})
     public void customerShouldWithdrawMoneySuccessfully() {
         homePage.clickOnHomeButton();
         //	click on "Customer Login" Tab
@@ -151,7 +160,7 @@ public class BankTest extends TestBase {
      *  6.bankManagerShouldDeleteCustomerSuccessfully.
      */
 
-    @Test
+    @Test(priority = 5,groups = {"Sanity","Regeression"})
     public void bankManagerShouldDeleteCustomerSuccessfully() {
     homePage.clickOnHomeButton();
     // 1. click on Bank Manager Login Tab

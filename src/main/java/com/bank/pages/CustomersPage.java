@@ -13,10 +13,12 @@ public class CustomersPage extends Utility {
 
     //actions performed on elements
     public void searchCustomerName(String str) {
+
         sendTextToElement(searchCustomerField,str);
     }
 
     public void clickOnDeleteButton() {
+
         clickOnElement(deleteBtn);
     }
 

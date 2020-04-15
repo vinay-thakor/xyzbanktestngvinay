@@ -2,7 +2,7 @@ package com.bank.pages;
 
 import com.bank.utility.Utility;
 import org.openqa.selenium.By;
-import org.testng.Assert;
+
 
 public class OpenAccountPage extends Utility {
 
@@ -15,11 +15,11 @@ public class OpenAccountPage extends Utility {
     //actions performed on elements
 
     public void searchCustomerCreatedInFirstTest(String str) {
-        selectByVisibleTextFromDropDown(customerNameField,str);
+        selectByVisibleTextFromDropDown(customerNameField, str);
     }
 
     public void selectCurrencyPound(int index) {
-        selectByIndexFromDropDown(currencyField,index);
+        selectByIndexFromDropDown(currencyField, index);
     }
 
     public void clickOnProcessButton() {
